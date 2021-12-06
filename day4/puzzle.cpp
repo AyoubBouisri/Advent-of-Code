@@ -144,7 +144,7 @@ int main(){
     vector<int> numbers= split(numbersLine, ",");
     vector<Board*> boards = loadBoards(input);
 
-    //solvePart1(numbers, boards);
+    solvePart1(numbers, boards);
 
     solvePart2(numbers, boards);
 
